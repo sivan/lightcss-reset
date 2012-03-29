@@ -1,0 +1,31 @@
+/* =============================================================================
+	Project Name: LightCSS WordPress Reset
+	Description : This is a CSS Reset for WordPress theme authors. You'd better use it with CSS Reset or normalize.css
+	Version     : 0.1
+	Author      : Sivan
+	Author URI  : http://lightcss.com/work/reset/
+	License     : GPL
+	License URI : http://www.gnu.org/licenses/gpl-2.0.html
+   ========================================================================== */
+.noboder,.noboder img{border:0;}
+.alignleft{float:left;text-align:left;margin-right:5px;}
+.alignright{float:right;text-align:right;margin-left:5px;}
+.aligncenter{display:block;margin-left:auto;margin-right:auto;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.wp-caption{}
+.wp-caption-text{}
+.gallery-caption{}
+.sticky{}
+.bypostauthor{}
+.wp-smiley{}
+.left{float:left;margin-right:10px;}
+.right{float:right;margin-left:10px;}
+.fixed,.clear{clear:both;}
+.group:before,.group:after{display:table;content:"";}
+.group:after{clear:both;}
+.group{*zoom:1;}
+
+body{margin:0;font:12px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;background-color:#fff;}
+a{color:#08c;text-decoration:none;}
+a:hover{color:#005580;text-decoration:underline;}
