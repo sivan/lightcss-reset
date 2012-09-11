@@ -1,0 +1,59 @@
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+img {
+	vertical-align: middle;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+    resize: vertical;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/*
+ * Image replacement (from necolas)
+ * learn more at https://github.com/h5bp/html5-boilerplate/issues/1149
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+/*
+ * Contain floats
+ * I use `.group` instead of `.clearfix` because that looks weird.
+ */
+.group:before,
+.group:after {
+	display: table;
+	content: "";
+}
+.group:after {
+	clear: both;
+}
+.group{
+	*zoom: 1;
+}
+/* */
+.clear {
+	clear: both;
+}

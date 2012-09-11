@@ -1,31 +1,59 @@
 /* =============================================================================
-	Project Name: LightCSS WordPress Reset
-	Description : This is a CSS Reset for WordPress theme authors. You'd better use it with CSS Reset or normalize.css
+	Project Name: LightCSS Reset
+	Description : This is a CSS reset for WordPress theme authors.
 	Version     : 0.1
 	Author      : Sivan
 	Author URI  : http://lightcss.com/work/reset/
 	License     : GPL
-	License URI : http://www.gnu.org/licenses/gpl-2.0.html
-   ========================================================================== */
-.noboder,.noboder img{border:0;}
-.alignleft{float:left;text-align:left;margin-right:5px;}
-.alignright{float:right;text-align:right;margin-left:5px;}
-.aligncenter{display:block;margin-left:auto;margin-right:auto;}
-.floatleft{float:left;}
-.floatright{float:right;}
-.wp-caption{}
-.wp-caption-text{}
-.gallery-caption{}
-.sticky{}
-.bypostauthor{}
-.wp-smiley{}
-.left{float:left;margin-right:10px;}
-.right{float:right;margin-left:10px;}
-.fixed,.clear{clear:both;}
-.group:before,.group:after{display:table;content:"";}
-.group:after{clear:both;}
-.group{*zoom:1;}
+	License URI : http://www.gnu.org/licenses/gpl-2.0.html ========================================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
-body{margin:0;font:12px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;background-color:#fff;}
-a{color:#08c;text-decoration:none;}
-a:hover{color:#005580;text-decoration:underline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* Remove the gap between images and the bottom of their containers: h5bp.com/i/440 */
+img { vertical-align: middle; }
+
+/* Allow only vertical resizing of textareas. */
+textarea { resize: vertical; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none; visibility: hidden; }
+
+/* Image replacement (from necolas) learn more at https://github.com/h5bp/html5-boilerplate/issues/1149 */
+.ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px; }
+
+.ir:before { content: ""; display: block; width: 0; height: 100%; }
+
+/* Contain floats I use `.group` instead of `.clearfix` because that looks weird. */
+.group:before, .group:after { display: table; content: ""; }
+
+.group:after { clear: both; }
+
+.group { *zoom: 1; }
+
+/* */
+.clear { clear: both; }
+
+html, button, input, select, textarea { color: #000; font: 14px/1 sans-serif; }
+
+body { background: #fff; }
+
+:link, :visited { color: #666; text-decoration: none; }
+
+a:hover, a:active { text-decoration: underline; }
+
+/* Default selection * These selection declarations have to be separate. * Customize the background color to match your design. */
+::-moz-selection { background: #b3d4fc; text-shadow: none; }
+
+::selection { background: #b3d4fc; text-shadow: none; }
+
+/* Default horizontal rule  * Change `border-top` color to what you like. */
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }

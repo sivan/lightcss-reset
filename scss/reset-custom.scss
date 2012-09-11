@@ -1,0 +1,48 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #000;
+    font: 14px/1 sans-serif;
+}
+
+body {
+	background: #fff;
+}
+:link,
+:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+
+/*
+ * Default selection
+ ** These selection declarations have to be separate.
+ ** Customize the background color to match your design.
+ */
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * Default horizontal rule 
+ ** Change `border-top` color to what you like.
+ */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
