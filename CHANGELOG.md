@@ -1,9 +1,13 @@
-### 0.2 (September 24, 2012)
+### 0.3 (20130108)
+* Use `reset-main.scss` as output file.
+* Combine `reset-normalize.scss` and `reset-custom.scss`.
 
-* Update to Normalize.css 2.0.1.
-* Set Normalize.css to default reset.
-* Add CHANGELOG.md.
+### 0.2 (20120924)
 
-### 0.1 (August 9, 2012)
+* Update to **normalize.css** 2.0.1.
+* Set **normalize.css** to default reset.
+* Add `CHANGELOG.md`.
+
+### 0.1 (2012-08-09)
 
 * Hello world.

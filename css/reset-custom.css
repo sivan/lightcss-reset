@@ -1,45 +1,46 @@
 /*
- * Default selection
- ** These selection declarations have to be separate.
- ** Customize the background color to match your design.
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
  */
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 /*
- * Default horizontal rule 
- ** Change `border-top` color to what you like.
+ * A better looking default horizontal rule
  */
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+/*
+ * Custom fieldset style.
+ */
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* 
  * Default font-size etc.
  */
-body,
-button,
-input,
-select,
-textarea {
-    color: #000;
-    font: 14px/1 sans-serif;
-}
-
 body {
+	font: 100%/1 sans-serif;
 	background: #fff;
 }
+
 :link,
 :visited {
 	color: #666;

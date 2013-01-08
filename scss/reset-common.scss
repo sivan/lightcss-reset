@@ -9,38 +9,37 @@ img {
  * Allow only vertical resizing of textareas.
  */
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
 
 /*
- * Hide from both screenreaders and browsers: h5bp.com/u
+ * Hide from browsers.
  */
 .hidden {
-    display: none;
-    visibility: hidden;
+	display: none;
 }
 
 /*
  * Image replacement (from necolas)
- * learn more at https://github.com/h5bp/html5-boilerplate/issues/1149
+ * Learn more at https://github.com/h5bp/html5-boilerplate/issues/1149
  */
 
 .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	/* IE 6/7 fallback */
+	*text-indent: -9999px;
 }
 .ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 100%;
+	content: "";
+	display: block;
+	width: 0;
+	height: 100%;
 }
 /*
  * Contain floats
- * I use `.group` instead of `.clearfix` because that looks weird.
+ * I use `.group` instead of `.clearfix` because `.group` looks awesome.
  */
 .group:before,
 .group:after {
@@ -53,7 +52,7 @@ textarea {
 .group{
 	*zoom: 1;
 }
-/* Clear floats */
+/* Hard clear floats */
 .clear {
 	clear: both;
 }
