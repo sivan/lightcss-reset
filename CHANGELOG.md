@@ -1,4 +1,4 @@
-### 0.3 (20130108)
+### 0.31 (20130108)
 * Use `reset-main.scss` as output file.
 * Combine `reset-normalize.scss` and `reset-custom.scss`.
 
