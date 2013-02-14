@@ -1,31 +1,31 @@
 /*!!==============================================================
 	Project Name: LightCSS Reset
 	Description : This is a CSS Reset for theme authors.
-	Version     : 0.31
+	Version     : 0.4
 	Author      : Sivan
 	Author URI  : http://lightcss.com/project/reset/
 	============================================================== */
 
 /* 1. Use normalize.scss */
-@import "modules/normalize.scss";
+@import "libs/_normalize.scss";
 
-/* Or use Eric Meyer's CSS Reset instead of normalize.css */
+/* Or use Eric Meyer's CSS Reset instead of _normalize.css */
 /* 
- * @import "modules/reset-basic.scss";
+ * @import "libs/_basic.scss";
  */
 
 /* 2. Common reset, don't need to change anything */
-@import "modules/reset-common.scss";
+@import "libs/_common.scss";
 
 /* 3. Modify your own default style */
-@import "modules/reset-custom.scss";
+@import "libs/_custom.scss";
 
-/* 4. Include CSS Reset for WordPress */
+/* *4. Include CSS Reset for WordPress */
 /* 
- * @import "modules/reset-wordpress.scss";
+ * @import "libs/_wordpress.scss";
  */
 
-/* 5. Include this file in your project! */
+/* Now just include this file in your project! */
 /* 
  * @import "reset.scss";
  */
