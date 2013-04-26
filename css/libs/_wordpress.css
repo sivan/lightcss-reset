@@ -1,45 +1,30 @@
-.noboder, .noboder img {
-	border: 0;
-}
-
-.alignleft {
-	float: left;
-	text-align: left;
-	margin-right: 5px;
-}
-.alignright {
-	float: right;
-	text-align: right;
-	margin-left: 5px;
-}
 .aligncenter {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.floatleft {
-	float: left;
-}
-.floatright {
-	float: right;
-}
-
-.left {
+.alignleft {
 	float: left;
 	margin-right: 10px;
 }
-.right {
+.alignright {
 	float: right;
 	margin-left: 10px;
 }
 
 .wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
 }
-
-.wp-caption-text {
+.wp-caption .wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
 }
-
 .gallery-caption {
 }
 

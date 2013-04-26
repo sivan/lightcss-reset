@@ -22,10 +22,8 @@ textarea {
 }
 
 /*
- * Image replacement (from necolas)
- * Learn more at https://github.com/h5bp/html5-boilerplate/issues/1149
+ * Image replacement
  */
-
 .ir {
 	background-color: transparent;
 	border: 0;
@@ -48,7 +46,7 @@ textarea {
 }
 
 /*
- * Contain floats
+ * Clearfix: contain floats
  * I use `.group` instead of `.clearfix` because `.group` looks awesome.
  */
 .group:before,
@@ -62,6 +60,7 @@ textarea {
 .group {
 	*zoom: 1;
 }
+
 /* Hard clear floats */
 .clear {
 	clear: both;

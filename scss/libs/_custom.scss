@@ -2,8 +2,8 @@
  * Default font-size etc.
  */
 body {
-	color: #000;
-	background: #fff;
+	font-size: 1em;
+	line-height: 1;
 }
 
 :link,
@@ -17,7 +17,6 @@ a:active {
 }
 
 /*
- * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */

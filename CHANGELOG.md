@@ -1,5 +1,10 @@
+### 0.5 (20130426)
+* Add `_normalize-lagecy.scss`.
+* Update **Normalize.css** to 2.1.1.
+* Update `_wordpress.scss`.
+
 ### 0.4 (20130215)
-* Change **normalize.css** version to 1.1.0.
+* Change **Normalize.css** version to 1.1.0.
 * Change prefix of extended files.
 * Rename `modules` directory to `libs`.
 
@@ -9,8 +14,8 @@
 
 ### 0.2 (20120924)
 
-* Update to **normalize.css** 2.0.1.
-* Set **normalize.css** to default reset.
+* Update to **Normalize.css** 2.0.1.
+* Set **Normalize.css** to default reset.
 * Add `CHANGELOG.md`.
 
 ### 0.1 (2012-08-09)

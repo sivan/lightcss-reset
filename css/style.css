@@ -1,12 +1,12 @@
 /*!==============================================================
-	Project Name: My project name
-	Description : My project description.
+	Project Name: My project
+	Description : Just an example project.
 	Version     : 1.0
 	Author      : Sivan
-	Author URI  : http://lightcss.com/project/reset/
+	Author URI  : http://lightcss.com/
 	============================================================== */
 /* import main file */
-@import "reset.css";
+@import "_reset.css";
 
 /*
  * Your style here.
