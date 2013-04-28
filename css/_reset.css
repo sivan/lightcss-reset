@@ -19,10 +19,10 @@
 	 * @import "libs/_basic.scss";
 	 */
 
-	/* 2. Common reset, don't need to change anything */
+/* 2. Common reset, don't need to change anything */
 @import "libs/_common.css";
 
-	/* 3. Modify your own default style */
+/* 3. Modify your own default style */
 @import "libs/_custom.css";
 
 /* 4. Use common style Include CSS Reset for WordPress */
