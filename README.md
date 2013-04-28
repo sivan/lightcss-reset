@@ -43,7 +43,7 @@ Ok, that's all. Now just import `_reset.scss` in your project(e.g style.scss) an
 *If you don't use scss preprocessor, just copy the contents in `css/_reset.css` to your own style.css.*
 
 ## To-Do
-* Add a optional typography style.
+* Add an optional typography style.
 * Add Chinese typography style.
 
 ## Thanks & Resources
