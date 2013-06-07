@@ -44,7 +44,7 @@ Ok, that's all. Now just import `_reset.scss` in your project(e.g style.scss) an
 
 ## To-Do
 * Add an optional typography style.
-* Add Chinese typography style.
+* Add a Chinese typography style.
 
 ## Thanks & Resources
 
