@@ -5,11 +5,11 @@
 }
 .alignleft {
 	float: left;
-	margin-right: 10px;
+	margin-right: 1em;
 }
 .alignright {
 	float: right;
-	margin-left: 10px;
+	margin-left: 1em;
 }
 
 .wp-caption {

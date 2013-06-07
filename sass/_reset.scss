@@ -9,34 +9,34 @@
 /*
  * 1. Choose a basic reset.
  *
- * I recommend you to use _normalize.css,
- * for Legacy browser support, use _normalize-legacy.css instead.
+ * I recommend you to use _normalize.scss,
+ * for Legacy browser support, use _normalize-legacy.scss instead.
  * Or you can still use Eric Meyer's CSS Reset
  */
 
-@import "libs/_normalize.css";
+@import "libs/_normalize.scss";
 
-/* @import "libs/_normalize-legacy.css"; */
-/* @import "libs/_basic.css"; */
+// @import "libs/_normalize-legacy.scss";
+// @import "libs/_basic.scss";
 
 /*
  * 2. Common reset, no need to change anything.
  */
 
-@import "libs/_common.css";
+@import "libs/_common.scss";
 
 /*
  * 3. Modify your own default style.
  */
 
-@import "libs/_custom.css";
+@import "libs/_custom.scss";
 
 /*
  * 4. Use common style Include CSS Reset for WordPress
  */
 
-/* @import "libs/_wordpress.css"; */
+// @import "libs/_wordpress.scss";
 
 /*
-* 5.Now just import this file to your project!(See style.css)
+* 5.Now just import this file to your project!(See style.scss)
 */

@@ -46,6 +46,13 @@ textarea {
 }
 
 /*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.invisible {
+	visibility: hidden;
+}
+
+/*
  * Clearfix: contain floats
  * I use `.group` instead of `.clearfix` because `.group` looks awesome.
  */

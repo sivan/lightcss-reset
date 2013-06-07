@@ -1,6 +1,13 @@
 /*
- * Default font-size etc.
+ * Base styles
  */
+html,
+button,
+input,
+select,
+textarea {
+	color: #000;
+}
 body {
 	font-size: 1em;
 	line-height: 1;
@@ -17,6 +24,7 @@ a:active {
 }
 
 /*
+ * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
