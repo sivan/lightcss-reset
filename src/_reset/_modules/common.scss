@@ -1,0 +1,85 @@
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+	resize: vertical;
+}
+
+/*
+ * Image replacement
+ */
+.ir {
+	text-align: left;
+	text-indent: -9999px;
+	overflow: hidden;
+	_zoom: 1;
+}
+
+/*
+ * Hide from browsers.
+ */
+@if (str-index($hidden_class, '.')) {
+	$hidden_class: str-slice($hidden_class, 2);
+} @else {
+	$hidden_class: 'hidden'
+}
+.#{$hidden_class} {
+	display: none;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.invisible {
+	visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ * I use `.group` instead of `.clearfix` because `.group` looks awesome and `class="clearfix"` looks like a lot of bugs here :(
+ */
+@if (str-index($clearfix_class, '.')) {
+	$clearfix_class: str-slice($clearfix_class, 2);
+} @else {
+	$clearfix_class: 'group'
+}
+
+.#{$clearfix_class} {
+	*zoom: 1;
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+/* Hard clear floats */
+.clear {
+	clear: both;
+}

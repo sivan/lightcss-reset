@@ -8,9 +8,10 @@ select,
 textarea {
 	color: #000;
 }
-body {
-	font-size: 1em;
-	line-height: 1;
+html {
+	color: #000;
+	font-size: $base_font_size;
+	line-height: 1.5;
 }
 
 :link,
@@ -25,7 +26,7 @@ a:active {
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection declarations have to be separate.
+ * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
 ::-moz-selection {

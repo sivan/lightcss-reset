@@ -9,9 +9,10 @@
     "url": "https://github.com/sivan/lightcss-reset.git"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-compass": "~0.2.0",
-    "grunt-contrib-cssmin": "~0.6.1",
-    "grunt-contrib-watch": "~0.4.4"
+    "gulp": "3.8.x",
+    "gulp-rename": "1.0.x",
+    "gulp-sass": "2.0.x",
+    "gulp-util": "3.0.x",
+    "stream-combiner2": "1.0.x"
   }
 }
