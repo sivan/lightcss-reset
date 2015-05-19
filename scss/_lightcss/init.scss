@@ -1,0 +1,16 @@
+/*!==============================================================
+ * Project Name: LightCSS Reset
+ * Version: 1.1.0
+ * Homepage: https://github.com/sivan/lightcss-reset
+   ============================================================== */
+
+@import "_settings";
+@import "_modules/setup";
+/*
+ * 2+. Use common style modules like wordpress module `wordpress.scss`
+ */
+// @import "_modules/wordpress.scss";
+
+/*
+ * 5. Now just import this file to your project!(See styles.scss)
+ */

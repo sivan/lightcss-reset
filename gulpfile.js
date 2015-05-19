@@ -6,8 +6,8 @@ var gutil = require('gulp-util');
 var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var dir = {
-    dest: 'dist/',
-    src: 'src/'
+    dest: 'css/',
+    src: 'scss/'
 };
 
 gulp.task('sass', function() {
