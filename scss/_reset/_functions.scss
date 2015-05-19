@@ -1,0 +1,12 @@
+// Get right classname if start with a dot
+@function trim-classname($classname) {
+	@if (str-index($classname, '.')) {
+		$classname: str-slice($classname, 2);
+	}
+	@return $classname;
+}
+
+// Get component classname
+@function get-component-classname($component) {
+	@return trim-classname(map-get($component-classnames, $component));
+}

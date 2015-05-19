@@ -1,0 +1,20 @@
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+@mixin visuallyhidden() {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+	_zoom: 1;
+}
+
+.#{get-component-classname(accessibility)} {
+	@include visuallyhidden();
+}

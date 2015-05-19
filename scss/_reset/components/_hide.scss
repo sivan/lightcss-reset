@@ -1,0 +1,7 @@
+/*
+ * Hide visually and from screen readers:
+ */
+
+.#{get-component-classname(hide)} {
+	display: none !important;
+}

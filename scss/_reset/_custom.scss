@@ -1,0 +1,71 @@
+@import "_functions";
+
+/*
+ * Define components for your code style
+ */
+
+// Set your favourite classname of helper classes
+$component-classnames: (
+	hide: "hidden",
+	invisible: "invisible",
+	accessibility: "visuallyhidden",
+	clearfix: "group",
+	image-replacement: "ir",
+) !default;
+
+// Add Common base styles, no need to change anything.
+@import "components/_common";
+
+// Add base components which you need
+@import "components/_hide";
+@import "components/_invisible";
+@import "components/_accessibility";
+@import "components/_clearfix";
+@import "components/_ir";
+
+
+/*
+ * Define root styles for your project
+ */
+
+html {
+	color: #000;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+:link,
+:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+
+/*
+ * Remove text-shadow in selection highlight
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+	display: block;
+	height: 1px;
+	padding: 0;
+	margin: 1em 0;
+	border: 0;
+	border-top: 1px solid #ccc;
+}

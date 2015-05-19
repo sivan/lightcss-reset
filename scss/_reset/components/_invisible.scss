@@ -1,0 +1,7 @@
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.#{get-component-classname(invisible)} {
+    visibility: hidden;
+}

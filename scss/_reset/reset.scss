@@ -1,0 +1,30 @@
+/*!==============================================================
+ * Project Name: LightCSS Reset
+ * Version: 1.1.0
+ * Homepage: https://github.com/sivan/lightcss-reset
+   ============================================================== */
+
+/*
+ * 1. Choose a basic reset.
+ *
+ * I recommend you to use `@import "libs/_normalize";`,
+ * for Legacy browser support(back to IE6), use `@import "libs/_normalize-legacy";` instead.
+ * Or you can still use Eric Meyer's CSS Reset by using `@import "libs/_reset";`.
+ */
+
+@import "libs/_normalize";
+
+/*
+ * 2. Modify your own default style.
+ */
+
+@import "_custom";
+
+/*
+ * 2+. Select modules you use like WordPress Module: `@import "modules/_wordpress";`
+ */
+// @import "modules/_wordpress";
+
+/*
+ * 3. Now just @import this file in your project!(See styles.scss)
+ */

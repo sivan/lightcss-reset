@@ -1,4 +1,4 @@
-# [LightCSS Reset](http://lightcss.com/projects/reset/)
+# LightCSS Reset
 
 LightCSS Reset is a simple & adaptable CSS Reset for SCSS users.
 
@@ -9,32 +9,40 @@ LightCSS Reset is a simple & adaptable CSS Reset for SCSS users.
 
 ## Features
 
-* Simple but adaptable (3kb), modify your own version  by only three steps.
-* Work with [Normalize.css](http://necolas.github.com/normalize.css/) or [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/).
-* HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
-* Includes useful CSS helpers .
-* Includes a optional reset for  WordPress theme authors.
-* Multi-language support.
+* Simple(3KB) but scalable(easy use with components and modules) AND very easy to use, you can modify your own version by only three steps;
+* Work with [normalize.css](http://necolas.github.com/normalize.css/) or [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/);
+* HTML5 ready. Use the new elements with confidence;
+* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+);
+* Includes useful CSS helpers;
+* Includes a optional reset for *WordPress* theme authors;
 * Also include a simple CSS version.
 
 ## Quick start
 
-There are only three steps to modify LightCSS Reset in your project. Follow `_reset.scss` to catch it.
+There are only three steps to modify LightCSS Reset in your project.
+Now just copy `_reset` directory to your *SCSS* directory and follow `_reset/reset.scss` to use it.
 
-###Here are two samples:
+### 1. Choose a basic reset
 
-If you are using Normalize.css in your project, I recommend you edit _reset.scss like this:
+With LightCSS Reset, you can use *normalize.css* or *Eric Meyer's CSS Reset*.
 
-	@import "libs/_normalize.scss";
-	@import "libs/_common.scss";
-	@import "libs/_custom.scss";
+```scsss
+@import "libs/_normalize";
+```
 
-Modify your custom style at `_custom.scss` to match your design.
+If you like *normalize.css* and need to support legacy browsers(IE6), you should use `@import "libs/_normalize-legacy";` instead.
 
-\* If your project is a WordPress theme, don't forget to include WordPress reset file at last: 
+### 2. Modify your own default style
 
-	@import "libs/_wordpress.scss";
+You can config the basic code style you like, see more in `_custom.scss`.
+
+\* If you have additional scss files from plugins, just move to `modules` and import them as a module. For example:
+
+Include wordPress reset file if your project is a WordPress theme
+
+```scss
+@import "libs/_wordpress.scss";
+```
 
 Ok, that's all. Now just import `_reset.scss` in your project(e.g style.scss) and enjoy your code!
 
@@ -42,9 +50,6 @@ Ok, that's all. Now just import `_reset.scss` in your project(e.g style.scss) an
 
 *If you don't use scss preprocessor, just copy the contents in `css/_reset.css` to your own style.css.*
 
-## To-Do
-* Add an optional typography style.
-* Add a Chinese typography style.
 
 ## Thanks & Resources
 
