@@ -1,4 +1,4 @@
-# LightCSS Reset
+# LightCSS Reset v2.0
 
 LightCSS Reset is a simple & scalable CSS Reset for SCSS users.
 
