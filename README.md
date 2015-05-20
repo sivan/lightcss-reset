@@ -61,6 +61,5 @@ Now just import `_reset.scss` in your project(e.g style.scss) and begin to work!
 * [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/)
 
 ##[Changelog](CHANGELOG.md)
-##[License](LICENSE)
 
 -- EOF --
