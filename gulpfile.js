@@ -16,7 +16,7 @@ gulp.task('sass', function() {
         sass({
             outputStyle: 'compressed'
         }),
-        rename({suffix: '.min'}),
+        rename('reset.min.css'),
         gulp.dest(dir.dest)
     ]);
     combined.on('error', function() {

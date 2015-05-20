@@ -1,9 +1,8 @@
 # LightCSS Reset
 
-LightCSS Reset is a simple & adaptable CSS Reset for SCSS users.
+LightCSS Reset is a simple & scalable CSS Reset for SCSS users.
 
 * Source: [https://github.com/sivan/lightcss-reset](https://github.com/sivan/lightcss-reset)
-* Homepage: [http://lightcss.com/project/reset/](http://lightcss.com/project/reset/)
 * Twitter: [@SivanSun](http://twitter.com/SivanSun)
 * Weibo: [@Sivan](http://weibo.com/sivan)
 
@@ -26,7 +25,7 @@ Now just copy `_reset` directory to your *SCSS* directory and follow `_reset/res
 
 With LightCSS Reset, you can use *normalize.css* or *Eric Meyer's CSS Reset*.
 
-```scsss
+```scss
 @import "libs/_normalize";
 ```
 
@@ -34,27 +33,34 @@ If you like *normalize.css* and need to support legacy browsers(IE6), you should
 
 ### 2. Modify your own default style
 
-You can config the basic code style you like, see more in `_custom.scss`.
+Config the basic code style you like in `_custom.scss`, if you have additional SCSS files from plugins, just move to `modules` and import them.
 
-\* If you have additional scss files from plugins, just move to `modules` and import them as a module. For example:
+#### Example:
 
-Include wordPress reset file if your project is a WordPress theme
+\* Include WordPress reset file if your project is a WordPress theme
 
 ```scss
 @import "libs/_wordpress.scss";
 ```
 
-Ok, that's all. Now just import `_reset.scss` in your project(e.g style.scss) and enjoy your code!
+### 3. Import in your SCSS
 
-	@import "_reset.scss";
+Now just import `_reset.scss` in your project(e.g style.scss) and begin to work!
 
-*If you don't use scss preprocessor, just copy the contents in `css/_reset.css` to your own style.css.*
+```scss
+@import "_reset.scss";
+```
+
+\* If you don't use SCSS preprocessor, just use the css version from `css/reset.min.css`.*
 
 
 ## Thanks & Resources
 
-This project is based on the work of the following people & projects.
+* [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
+* [normalise.css](http://necolas.github.com/normalize.css/)
+* [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/)
 
-- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
-- [Normalise.css](http://necolas.github.com/normalize.css/)
-- [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/)
+##[Changelog](CHANGELOG.md)
+##[License](LICENSE)
+
+-- EOF --

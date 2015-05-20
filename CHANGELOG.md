@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+## 2.0.1 (20150520)
+* Move base components import to `_common.scss`;
+* Move `_function.scss` to `components`.
+
 ## 2.0 (20150519)
 * Combine settings in `_custom.scss`;
 * Update *normalize.css* to 3.0.2/1.1.3;

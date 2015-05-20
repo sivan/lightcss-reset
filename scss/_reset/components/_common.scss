@@ -1,8 +1,11 @@
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
+@import "_functions";
+
+/**
+ * Common base styles
  */
+
+// Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers.
+
 audio,
 canvas,
 iframe,
@@ -12,18 +15,25 @@ video {
     vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
+// Remove default fieldset styles.
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
+// Allow only vertical resizing of textareas.
+
 textarea {
 	resize: vertical;
 }
+
+/**
+ * Add base components, you can delete the component which you really don't need.
+ */
+
+@import "_hide";
+@import "_invisible";
+@import "_accessibility";
+@import "_clearfix";
+@import "_ir";
