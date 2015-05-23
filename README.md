@@ -8,7 +8,7 @@ LightCSS Reset is a simple & scalable CSS Reset for SCSS users.
 
 ## Features
 
-* Simple(3KB) but scalable(easy use with components and modules) AND very easy to use, you can modify your own version by only three steps;
+* Simple(3KB) but scalable(with components and modules) AND very easy to use, you can modify your own version by only three steps;
 * Work with [normalize.css](http://necolas.github.com/normalize.css/) or [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/);
 * HTML5 ready. Use the new elements with confidence;
 * Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+);
