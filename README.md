@@ -19,7 +19,7 @@ LightCSS Reset is a simple & scalable CSS Reset for SCSS users.
 ## Quick start
 
 There are only three steps to modify LightCSS Reset in your project.
-Now just copy `_reset` directory to your *SCSS* directory and follow `_reset/reset.scss` to use it.
+Now just copy `_base` directory to your *SCSS* directory and follow `_base/reset.scss` to use it.
 
 ### 1. Choose a basic reset
 
@@ -45,10 +45,10 @@ Config the basic code style you like in `_custom.scss`, if you have additional S
 
 ### 3. Import in your SCSS
 
-Now just import `_reset.scss` in your project(e.g style.scss) and begin to work!
+Now just import `_base/reset.scss` in your project(e.g style.scss) and begin to work!
 
 ```scss
-@import "_reset.scss";
+@import "_base/reset.scss";
 ```
 
 \* If you don't use SCSS preprocessor, just use the css version from `css/reset.min.css`.*
