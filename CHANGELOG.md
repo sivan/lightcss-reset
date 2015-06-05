@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+## 2.0.2 (20150524)
+* Change `_reset` to `_reset`.
+
 ## 2.0.1 (20150520)
 * Move base components import to `_common.scss`;
 * Move `_function.scss` to `components`.
